@@ -1,0 +1,62 @@
+/* MARK : DEFAULT */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #1F6E8C;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E2954;
+}
+
+button {
+    background-color: #2E8A99;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #18717F;
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #085f6c;
+}
+/* MARK: ID */
+
+#inputField {
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;    
+    border: solid #84A7A1;
+    padding: 10px;
+}
+
+#inputField:focus {
+    border: solid #0E2954;
+}
+/* MARK: Class */
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
