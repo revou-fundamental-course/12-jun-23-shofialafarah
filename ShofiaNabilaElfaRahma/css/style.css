@@ -1,0 +1,180 @@
+/* MARK : DEFAULT */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(184, 217, 245);
+}
+
+header {
+    background-color: #1F6E8C;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  font-family: cursive;
+  color: #29508f;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #29508f;
+  font-size: 30px;
+}
+
+sub {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-family: cursive;
+  background-color: #1F6E8C;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #29508f;
+}
+
+.wrapper {
+  display: table;
+  width: 80%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.textarea {
+  display: table-cell;
+  vertical-align: bottom;
+  border: 1px solid silver;
+  overflow: auto;
+  padding: 5px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+button {
+  background-color: #2E8A99;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background-color: #18717F;
+}
+
+button:active {
+  transform: translateY(1px);
+  background-color: #085f6c;
+}
+
+input[type="button"] {
+  background-color: #2E8A99;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: #18717F;
+}
+
+input[type="button"]:active {
+  transform: translateY(1px);
+  background-color: #085f6c;
+}
+
+input[type="submit"] {
+  padding: 5px 10px;
+  background-color: #2E8A99;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #18717F;
+}
+
+input[type="submit"]:active {
+    transform: translateY(1px);
+    background-color: #085f6c;
+}
+
+textarea {
+  color: #29508f;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* MARK: ID */
+
+#inputField {
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;    
+    border: solid #84A7A1;
+    padding: 10px;
+}
+
+#inputField:focus {
+    border: solid #0E2954;
+}
+/* MARK: Class */
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  #conversionResult {
+    margin-top: 20px;
+  }
+  
+  #conversionResult h2 {
+    margin-bottom: 10px;
+  }
+  
+  #convertedTemperature {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #conversionExplanation {
+    margin-top: 10px;
+  }
